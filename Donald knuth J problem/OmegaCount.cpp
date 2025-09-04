@@ -4,7 +4,7 @@ using namespace std;
 #define pb push_back
 
 using ll=long long;
-const ll N=2e6,C=1e5;
+const ll N=1e6,C=1e5;
 
 vector<ll>number(N);
 vector<int>omega(N);
@@ -46,5 +46,6 @@ int main(){
             else cout<<"0 ";   
         }
         cout<<"\n";
+        cerr<<i<<"\n";
     }
 }
