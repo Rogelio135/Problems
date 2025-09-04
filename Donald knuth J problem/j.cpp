@@ -95,7 +95,7 @@ int main(){
     int t=(right-1)/N;
     ll range=N*t+1;
 
-    //
+    //Computing O(u) in ranges
 
     while(range>2*N+1){
         while(left<range && range>2*N+1){
@@ -184,4 +184,5 @@ int main(){
     }
 
     cout<<res;
+
 }
